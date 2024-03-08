@@ -11,7 +11,7 @@
 // })
 const axios = require('axios');
 
-// Função que faz a chamada à API
+
 async function getApiData() {
   try {
     const response = await axios.get(' https://rickandmortyapi.com/api');
